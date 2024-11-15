@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Інтернет-магазин електроніки</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: gray;
+            color: white;
+        }
+        nav ul {
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .product-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .product-card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 10px;
+            width: 200px;
+            text-align: center;
+        }
+
+        .product-card img {
+            width: 100%;
+            height: auto;
+        }
+
+        details {
+            margin-top: 10px;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        form input, form button {
+            padding: 10px;
+            width: 300px;
+            max-width: 90%;
+        }
+    </style>
+    </head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Головна</a></li>
+            <li><a href="#catalog">Каталог</a></li>
+            <li><a href="#discount">Акції</a></li>
+            <li><a href="#about">Про нас</a></li>
+            <li><a href="#contact">Контакти</a></li>
+        </ul>
+</nav>
+
+<section id="home">
+    <h1>Ласкаво просимо до нашого магазину!</h1>
+    <p>Широкий вибір електроніки для будь-яких потреб.</p>
+</section>
+
+
+<section id="catalog">
+    <h2>Каталог товарів</h2>
+    <div class="product-list">
+        <div class="product-card">
+            <img src="iphone.jpg" alt="Смартфон">
+            <h3>iPhone 16 Pro Max</h3>
+            <p>Ціна: 70,000 грн</p>
+            <details>
+                <summary>Детальніше</summary>
+                <p>Смартфон Apple iPhone 16 Pro Max 256Gb Black Titanium 6,9"</p>
+            </details>
+        </div>
+        <div class="product-card">
+            <img src="macbook.jpg" alt="Ноутбук">
+            <h3>Ноутбук</h3>
+            <p>Ціна: 55,499 грн</p>
+            <details>
+                <summary>Детальніше</summary>
+                <p>Ноутбук Apple MacBook Air 13.6" M3 8/256GB 2024 (MRXQ3UA/A) Silver</p>
+            </details>
+        </div>
+        <div class="product-card">
+            <img src="ps.jpg" alt="Телевізор">
+            <h3>Ігрова приставка</h3>
+            <p>Ціна: 25,999 грн</p>
+            <details>
+                <summary>Детальніше</summary>
+                <p>Ігрова приставка Sony PlayStation 5 Slim</p>
+            </details>
+        </div>
+    </div>
+</section>
+
+<section id="offers">
+    <h2>Наші акції</h2>
+    
+    <p style="color: red">Отримайте додаткову знижку (10%) на перше замовлення за промокодом YULIAN10</p>
+</section>
+
+<section id="about">
+    <h2>Про нас</h2>
+    <a href="https://t.me/@prozxnt" target="_blank">
+        <img src="завантаження (1).jpg" alt="Опис фото" style="width:50px; height:auto; border:0; cursor:pointer;">
+    </a>
+    <a href="https://instagram.com/olegshum.15" target="_blank">
+        <img src="Instagram_logo_2022.svg.png" alt="Опис фото" style="width:50px; height:auto; border:0; cursor:pointer;">
+    </a>
+    
+</section>
+
+<section id="contact">
+    <h2>Контакти</h2>
+    <form>
+        <input type="text" placeholder="Ваше ім'я" required>
+    </nav>
+    <input type="tel" placeholder="Ваш телефон" required>
+            <button type="submit">Замовити дзвінок</button>
+        </form>
+    </section>
+</body>
+</html>
+</body>
